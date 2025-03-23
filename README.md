@@ -1,23 +1,30 @@
 # ContaTerminal
 
-Este é um exemplo de programa Java que simula a criação de uma conta bancária. O programa lê informações do usuário e exibe uma mensagem formatada com os dados fornecidos.
+![Java](https://img.shields.io/badge/Java-JDK17-blue)
+
+Este projeto é um exemplo simples em Java que simula a criação de uma conta bancária. O programa solicita dados do usuário, como número da conta, agência, nome do cliente e saldo, e exibe uma mensagem de boas-vindas com essas informações.
+
+---
 
 ## Funcionalidades
 
-- Leitura do número da conta, agência, nome do cliente e saldo.
-- Exibição de uma mensagem de boas-vindas com os dados inseridos.
-- Configuração do `Scanner` para utilizar o separador decimal com ponto (.) através do `Locale.US`.
+- **Entrada de dados:** Solicita e lê número da conta, agência, nome do cliente e saldo.
+- **Configuração regional:** Configura o `Scanner` para utilizar o separador decimal com ponto (.) através do `Locale.US`.
+- **Saída formatada:** Exibe uma mensagem de boas-vindas personalizada com os dados informados.
+
+---
 
 ## Pré-requisitos
 
-- **Java Development Kit (JDK)** instalado (recomendado JDK 17 ou superior).
-- Configuração correta do `PATH` para os comandos `java` e `javac`.
+- **Java Development Kit (JDK):** Recomendado o JDK 17 (ou superior).  
+- **Configuração do PATH:** Certifique-se de que os comandos `java` e `javac` estejam disponíveis no PATH do sistema.
+
+---
 
 ## Instruções de Uso
 
-1. **Compile o programa:**
-
-   Abra o terminal ou prompt de comando na pasta onde o arquivo `ContaTerminal.java` está localizado e execute:
-
+1. **Clone ou baixe o projeto**  
+   Caso utilize o Git:
    ```bash
-   javac ContaTerminal.java
+   git clone https://seurepositorio.git
+   cd ContaTerminal
